@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "start": "node build/server.js",
-    "build": "tsc"
+    "start": "node dist/server.js",
+    "build": "tsup src"
   },
   "keywords": [],
   "author": "",
@@ -14,7 +14,11 @@
   "devDependencies": {
     "@types/node": "^20.12.10",
     "prisma": "^5.13.0",
+    "tsup": "^8.0.2",
     "typescript": "^5.4.5"
+  },
+  "engines": {
+    "node": "18"
   },
   "dependencies": {
     "@fastify/cors": "^9.0.1",
