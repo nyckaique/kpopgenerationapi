@@ -378,7 +378,8 @@ var start = () => __async(exports, null, function* () {
   yield app.register(routes);
   try {
     yield app.listen({
-      port: process.env.port ? Number(process.env.port) : 3333
+      host: "0.0.0.0",
+      port: process.env.PORT ? Number(process.env.port) : 3333
     });
   } catch (err) {
     process.exit(1);

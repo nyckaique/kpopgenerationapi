@@ -11,7 +11,8 @@ const start = async () => {
   await app.register(routes);
   try {
     await app.listen({
-      port: process.env.port ? Number(process.env.port) : 3333,
+      host: "0.0.0.0",
+      port: process.env.PORT ? Number(process.env.port) : 3333,
     });
   } catch (err) {
     process.exit(1);
