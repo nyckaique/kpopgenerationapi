@@ -16,7 +16,6 @@
     "prisma": "^5.13.0",
     "typescript": "^5.4.5"
   },
-  "type": "module",
   "dependencies": {
     "@fastify/cors": "^9.0.1",
     "@prisma/client": "^5.13.0",
