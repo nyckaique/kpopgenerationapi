@@ -29,7 +29,8 @@ class CreateGroupService {
       !members ||
       !generation ||
       !debut_date ||
-      !status ||
+      status === null ||
+      status === undefined ||
       !company ||
       !spotify ||
       !image_url
