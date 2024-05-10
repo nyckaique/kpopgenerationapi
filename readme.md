@@ -2,6 +2,25 @@
 
 Kpop Generation API é uma ferramenta de CRUD criada para disponibilizar dados para um front end. Esse site front end está em produção, o seu acesso será incluído aqui por um link assim que disponível.
 
+## Endpoints
+
+A API se encontra em produção hospedada no site Render.com e você pode testar pelos seguintes endpoits:
+
+### GET: receber todos os grupos
+
+Esse endpoint retorna informação básica de todos os grupos.
+<https://kpopgenerationapi.onrender.com/groups>
+
+### GET: receber grupos por geração
+
+As gerações no kpop atualmente vão de 1 a 5. Substitua ali o valor da query generation para ver outras gerações.
+<https://kpopgenerationapi.onrender.com/groups/generation?generation=5>
+
+### GET: receber grupo por ID
+
+Nesse exemplo, retorna um grupo utilizando a query id.
+<https://kpopgenerationapi.onrender.com/group?id=663cc2448f8a51c315e736bb>
+
 ## Instalação
 
 Para utilizar essa API é necessário que voce tenha instalado as seguintes ferramentas:
