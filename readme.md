@@ -1,6 +1,6 @@
 # Kpop Generation API
 
-Kpop Generation API é uma ferramenta de CRUD criada para disponibilizar dados para um front end. Esse site front end está em produção, o seu acesso será incluído aqui por um link assim que disponível.
+Kpop Generation API é uma ferramenta de CRUD criada para disponibilizar dados para um front end. Você pode conferir a API funcionando pelo frontend nesse link <https://kpopgeneration.netlify.app/>
 
 ## Endpoints
 
